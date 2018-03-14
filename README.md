@@ -1,4 +1,4 @@
-Replace {{ user }} with your user directory.
+Replace `{{ user }}` with your user directory.
 
 ```
 # Shortcuts
