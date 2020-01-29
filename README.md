@@ -1,9 +1,7 @@
-Replace `{{ user }}` with your user directory.
-
 ```
-# Shortcuts
-alias sites='cd /Users/{{ user }}/Sites'
-alias desktop='cd /Users/{{ user }}/Desktop'
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+alias sites='cd $HOME/Sites'
+alias desktop='cd $HOME/Desktop'
 alias sublime='open -a "Sublime Text"'
 alias atom='open -a "Atom"'
 alias tower='open -a "Tower"'
@@ -18,6 +16,6 @@ alias sequel='open -a "Sequel Pro"'
 alias transmit='open -a "Transmit"'
 
 # Show/hide desktops icons
-alias hidedesktop='defaults write com.apple.finder CreateDesktop -bool false && killall Finder'
-alias showdesktop='defaults write com.apple.finder CreateDesktop -bool true && killall Finder'
+alias hidedesktop='defaults write com.apple.finder CreateDesktop -bool false &&$
+alias showdesktop='defaults write com.apple.finder CreateDesktop -bool true && $
 ```
