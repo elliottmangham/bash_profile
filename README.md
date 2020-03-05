@@ -1,5 +1,12 @@
 ```
+# Add Composer to path
 export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# Open URLs in browser
+alias devdb='open https://phpmyadmin.dev'
+alias devmail='open http://localhost:8025/'
+
+# Open common dev applications
 alias sites='cd $HOME/Sites'
 alias desktop='cd $HOME/Desktop'
 alias sublime='open -a "Sublime Text"'
